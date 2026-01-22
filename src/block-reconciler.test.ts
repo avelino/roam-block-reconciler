@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { BlockReconciler } from "./block-reconciler";
 import type { RoamApiAdapter } from "./roam-api-adapter";
-import type { ReconcilerConfig, RoamNode, BlockPayload } from "./types";
+import type { ReconcilerConfig, RoamNode } from "./types";
 
 interface TestItem {
   id: string;
